@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+body {
+    background: #333333;
+    color: white;
+    font-family: monospace;
+}
+
+
+.game-text {
+    white-space: pre;
+}
+
+.user-input .input {
+    padding: 0 0 0 1em;
+    width: 100%;
+    height: 1em;
+    background: none;
+    border: none;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    overflow-y: hidden;
+}
+
+.user-input .input:focus {
+    outline: none;
+}
+
+.user-input::before {
+    content: '$';
+    position: absolute;
+}
